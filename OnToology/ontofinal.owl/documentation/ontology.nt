@@ -1,4 +1,4 @@
-<https://fquezadagh.github.io/tffinal/medicina.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://fquezadagh.github.io/tffinal/ontofinal.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 # 
 # 
 # #################################################################

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://fquezadagh.github.io/tffinal/medicina.owl#"
-     xml:base="https://fquezadagh.github.io/tffinal/medicina.owl"
+<rdf:RDF xmlns="https://fquezadagh.github.io/tffinal/ontofinal.owl#"
+     xml:base="https://fquezadagh.github.io/tffinal/ontofinal.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:untitled-ontology-9="http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#">
-    <owl:Ontology rdf:about="https://fquezadagh.github.io/tffinal/medicina.owl"/>
+    <owl:Ontology rdf:about="https://fquezadagh.github.io/tffinal/ontofinal.owl"/>
     
 
 

@@ -278,6 +278,6 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://fquezadagh.github.io/tffinal/medicina.owl",
+  "@id" : "https://fquezadagh.github.io/tffinal/ontofinal.owl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 } ]
