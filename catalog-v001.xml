@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1552679345526" name="duplicate:http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9" uri="ontofinal.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552679345526" name="duplicate:http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9" uri="medicina.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1552679345526" name="https://fquezadagh.github.io/tffinal/medicina.owl" uri="OnToology/medicina.owl/documentation/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1552679345526" name="shadowed:https://fquezadagh.github.io/tffinal/medicina.owl" uri="OnToology/ontofinal.owl/documentation/ontology.xml"/>
+    </group>
+</catalog>
