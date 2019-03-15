@@ -1,0 +1,228 @@
+@prefix : <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9> .
+
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe
+:esSintomaDe rdf:type owl:ObjectProperty ;
+             owl:inverseOf :tieneSintoma ;
+             rdfs:domain :Sintoma ;
+             rdfs:range :Enfermedad .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe
+:esTratamientoDe rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :seTrataCon ;
+                 rdfs:domain :Tratamiento ;
+                 rdfs:range :Sintoma .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe
+:estaDiagnosticadoDe rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Paciente ;
+                     rdfs:range :Enfermedad .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon
+:seTrataCon rdf:type owl:ObjectProperty ;
+            rdfs:domain :Sintoma ;
+            rdfs:range :Tratamiento .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma
+:tieneSintoma rdf:type owl:ObjectProperty ;
+              rdfs:domain :Enfermedad ;
+              rdfs:range :Sintoma .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid
+:eid rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Enfermedad ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre
+:enombre rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Enfermedad ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula
+:pcedula rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Paciente ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad
+:pedad rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Paciente ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento
+:pfecha_nacimiento rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Paciente ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo
+:pgrupo_sanguineo rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Paciente ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid
+:pid rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Paciente ;
+     rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre
+:pnombre rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Paciente ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso
+:ppeso rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Paciente ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo
+:psexo rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Paciente ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid
+:sid rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Sintoma ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre
+:snombre rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Sintoma ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion
+:tconcentracion rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Tratamiento ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica
+:tforma_farmaceutica rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Tratamiento ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid
+:tid rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Tratamiento ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre
+:tnombre rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Tratamiento ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad
+:Enfermedad rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente
+:Paciente rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma
+:Sintoma rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento
+:Tratamiento rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1
+:Enf1 rdf:type owl:NamedIndividual ;
+      :seTrataCon :Trat1 ;
+      :tieneSintoma :Sint1 ,
+                    :Sint2 ,
+                    :Sint4 .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2
+:Enf2 rdf:type owl:NamedIndividual ;
+      :seTrataCon :Trat2 ;
+      :tieneSintoma :Sint3 ,
+                    :Sint4 .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1
+:Pac1 rdf:type owl:NamedIndividual ,
+               [ rdf:type owl:Restriction ;
+                 owl:onProperty owl:topObjectProperty ;
+                 owl:someValuesFrom :Paciente
+               ] ;
+      :estaDiagnosticadoDe :Enf1 .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2
+:Pac2 rdf:type owl:NamedIndividual ,
+               [ rdf:type owl:Restriction ;
+                 owl:onProperty owl:topObjectProperty ;
+                 owl:someValuesFrom :Paciente
+               ] ;
+      :estaDiagnosticadoDe :Enf2 .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1
+:Sint1 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2
+:Sint2 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3
+:Sint3 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4
+:Sint4 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1
+:Trat1 rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2
+:Trat2 rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

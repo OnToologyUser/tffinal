@@ -1,0 +1,283 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1"
+  } ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1"
+  }, {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2"
+  }, {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2"
+  } ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3"
+  }, {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid1" ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "_:genid2" ],
+  "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+} ]
