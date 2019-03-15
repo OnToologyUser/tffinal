@@ -1,0 +1,38 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Tratamiento" "base:Sintoma" "base:Paciente" "base:Enfermedad" ; /*classes style*/
+	"NULL" -> "base:Paciente" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "owl:topObjectProperty" [ label = "owl:onProperty" ];
+	"base:Enf1" -> "base:Sint4" [ label = "base:tieneSintoma" ];
+	"base:Enf1" -> "base:Sint2" [ label = "base:tieneSintoma" ];
+	"base:Enf1" -> "base:Sint1" [ label = "base:tieneSintoma" ];
+	"base:Enf1" -> "base:Trat1" [ label = "base:seTrataCon" ];
+	"base:Pac2" -> "base:Enf2" [ label = "base:estaDiagnosticadoDe" ];
+	"base:Pac1" -> "base:Enf1" [ label = "base:estaDiagnosticadoDe" ];
+	"base:Enf2" -> "base:Sint4" [ label = "base:tieneSintoma" ];
+	"base:Enf2" -> "base:Sint3" [ label = "base:tieneSintoma" ];
+	"base:Enf2" -> "base:Trat2" [ label = "base:seTrataCon" ];
+	"base:Tratamiento" -> "xsd:string" [ label = "base:tnombre" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:pedad" ];
+	"base:Sintoma" -> "xsd:string" [ label = "base:sid" ];
+	"base:Sintoma" -> "xsd:string" [ label = "base:snombre" ];
+	"base:Enfermedad" -> "base:Sintoma" [ label = "base:tieneSintoma" ];
+	"base:Paciente" -> "xsd:integer" [ label = "base:pid" ];
+	"base:Sintoma" -> "base:Tratamiento" [ label = "base:seTrataCon" ];
+	"base:Enfermedad" -> "xsd:string" [ label = "base:eid" ];
+	"base:Paciente" -> "base:Enfermedad" [ label = "base:estaDiagnosticadoDe" ];
+	"base:Sintoma" -> "base:Enfermedad" [ label = "base:esSintomaDe" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:psexo" ];
+	"base:Enfermedad" -> "xsd:string" [ label = "base:enombre" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:pgrupo_sanguineo" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:pcedula" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:ppeso" ];
+	"base:Tratamiento" -> "xsd:string" [ label = "base:tid" ];
+	"base:Tratamiento" -> "xsd:string" [ label = "base:tforma_farmaceutica" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:pfecha_nacimiento" ];
+	"base:Tratamiento" -> "base:Sintoma" [ label = "base:esTratamientoDe" ];
+	"base:Tratamiento" -> "xsd:string" [ label = "base:tconcentracion" ];
+	"base:Paciente" -> "xsd:string" [ label = "base:pnombre" ];
+
+}

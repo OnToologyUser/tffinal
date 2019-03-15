@@ -1,0 +1,204 @@
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esSintomaDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#esTratamientoDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#eid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#enombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pcedula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pedad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pfecha_nacimiento> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pgrupo_sanguineo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#pnombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#ppeso> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#psexo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#sid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#snombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tconcentracion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tforma_farmaceutica> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tnombre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enfermedad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sintoma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Tratamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#seTrataCon> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#tieneSintoma> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac1> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf1> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Paciente> .
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Pac2> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#estaDiagnosticadoDe> <http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Enf2> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Sint4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2
+<http://www.semanticweb.org/torrilux/ontologies/2019/1/untitled-ontology-9#Trat2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
